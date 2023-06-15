@@ -1,23 +1,7 @@
 import numpy as np
 
 
-"""""
-type of state functions :
-is reachable      (Done)
-is absorbing     (Done)
-is closed set   (canceled)
-is not irreducable  (done)
-is recurrent     (Done)
-is transient     (Done)
-*************************************
-type of markov chain class functions :
-is reducible   (done)
-is priodic/ aperiodic     (Done)
-is absorbing (Absorbing if every state can reach an absorbing state.)     (done)
-is ergodicity   (done)
 
-
-"""
 class MarkovChain:
     def __init__(self, transition_matrix, initial_probabilities):
         self.transition_matrix = transition_matrix
